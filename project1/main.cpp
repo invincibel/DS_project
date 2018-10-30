@@ -4,15 +4,10 @@
 #include<stdlib.h>
 #include<sstream>
 
+#include"search.h"
+
 using namespace std;
-struct Node
-{
-    string str;
-    float key;
-    struct Node *left;
-    struct Node *right;
-    int height;
-};
+
 
 int max(int a, int b);
 
