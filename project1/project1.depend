@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1540874925 source:c:\users\17104024\desktop\project1\main.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<stdlib.h>
+	<sstream>
+
+1540875474 source:c:\users\17104024\desktop\project1\hye.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<stdlib.h>
+	<sstream>
+
