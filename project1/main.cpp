@@ -3,9 +3,6 @@
 #include<cstdio>
 #include<stdlib.h>
 #include<sstream>
-
-#include"search.h"
-
 using namespace std;
 struct Node 
 { 
@@ -33,7 +30,7 @@ int max(int a,int b)
     return (a > b)? a : b;
 }
 
-struct Node* newNode(string str,float key)
+struct Node* newNode(string str,string key,string key2,string key3)
 {
     struct Node* node = (struct Node*) malloc(sizeof(struct Node));
     node->str2=str; 
