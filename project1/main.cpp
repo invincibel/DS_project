@@ -123,6 +123,19 @@ void preOrder(struct Node *root)
         preOrder(root->right); 
     } 
 } 
+Node * search(Node *root,string key)
+{
+	if(root!=NULL)
+{
+    if (root->str2== key)
+       return root;
+     if (root->str2 < key)
+       return search(root->right, key);
+    if (root->str2>key)
+     return search(root->left, key);
+ }
+ cout<<"not found";
+ }
 int main ()
 {
     struct Node *root = NULL;
@@ -157,6 +170,7 @@ int main ()
            }
     }
     infile.close();	
-    preOrder(root);
+   // preOrder(root);
+   
     return 0;
 }
